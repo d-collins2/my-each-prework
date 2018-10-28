@@ -5,4 +5,5 @@ def my_each(prc) # put argument(s) here
     yield(prc[i])
     i += 1 
   end 
+  prc 
 end
